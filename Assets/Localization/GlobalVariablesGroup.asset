@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1e3e22ff9634e441a479f01f905a2f7, type: 3}
+  m_Name: GlobalVariablesGroup
+  m_EditorClassIdentifier: 
+  m_Variables:
+  - name: record
+    variable:
+      rid: 4670082373937528832
+  - name: levelName
+    variable:
+      rid: 4670082373937528836
+  - name: gameModeName
+    variable:
+      rid: 4670082373937528835
+  - name: remainedTime
+    variable:
+      rid: 1483904837778407829
+  - name: countdownTime
+    variable:
+      rid: 1483904837778407835
+  - name: endGameReason
+    variable:
+      rid: 1483904837778407836
+  - name: moneyReward
+    variable:
+      rid: 1483904837778407837
+  - name: reputationReward
+    variable:
+      rid: 1483904837778407838
+  - name: sparesReward
+    variable:
+      rid: 1483904837778407839
+  - name: remainedDistance
+    variable:
+      rid: 1483904837778407840
+  - name: playTime
+    variable:
+      rid: 1483904837778407841
+  - name: coveredDistance
+    variable:
+      rid: 1483904837778407842
+  - name: score
+    variable:
+      rid: 1483904837778407843
+  references:
+    version: 2
+    RefIds:
+    - rid: 1483904837778407829
+      type: {class: FloatVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 0
+    - rid: 1483904837778407835
+      type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 0
+    - rid: 1483904837778407836
+      type: {class: StringVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 
+    - rid: 1483904837778407837
+      type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 0
+    - rid: 1483904837778407838
+      type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 0
+    - rid: 1483904837778407839
+      type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 0
+    - rid: 1483904837778407840
+      type: {class: FloatVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 0
+    - rid: 1483904837778407841
+      type: {class: FloatVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 0
+    - rid: 1483904837778407842
+      type: {class: FloatVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 0
+    - rid: 1483904837778407843
+      type: {class: FloatVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 0
+    - rid: 4670082373937528832
+      type: {class: IntVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 5
+    - rid: 4670082373937528835
+      type: {class: LocalizedString, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:72a6fd29dd3a7664b9613ded23111c25
+        m_TableEntryReference:
+          m_KeyId: 17416480654667776
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+    - rid: 4670082373937528836
+      type: {class: LocalizedString, ns: UnityEngine.Localization, asm: Unity.Localization}
+      data:
+        m_TableReference:
+          m_TableCollectionName: GUID:72a6fd29dd3a7664b9613ded23111c25
+        m_TableEntryReference:
+          m_KeyId: 17416444462018560
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []

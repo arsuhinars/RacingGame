@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9859cc0e4c22d2e4dbc681591c37138a
+  m_SerializeEntries:
+  - m_GUID: 9d1000b7c98cc204bacc9f339caa9b03
+    m_Address: CarBody
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: 60d54da88c2c59e478dc3951d70f77c5
+    m_Address: GameAssets
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: e483d1b850fba69458e254992db7615a
+    m_Address: ForestMap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: 30c2b6960b925dc42a6517b9231f1e06
+    m_Address: FreeRideConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: f6d573f9336c52846b13f2f3adcd4f33
+    m_Address: Mustang
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: c99bd95ad4840de499a4bab9fa8929e4
+    m_Address: Sedan
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: 0676eef2d99f4024a88df9d021dc89dc
+    m_Address: Focus
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: 961ea5c1f5406a44a8bd88b093977a9a
+    m_Address: Pickup
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: 2aba020be2476e64da4ffa4c3f3a30fe
+    m_Address: Polo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: c44cf381a6fcf6245b0583d2b9473300
+    m_Address: TimeTrialConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: 74a15de633d9cc54ab3e9d396b074fe1
+    m_Address: DragRaceConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: 61d6943c8f9330b4783877fcf38d205d
+    m_Address: InitialD
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: e6e856793afb62f4bb9750e91b1588d5
+    m_Address: CarsDataList
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - default
+  - m_GUID: 3daf01f9d8022bb4f8d4b5fb4dd130f9
+    m_Address: Van
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: c3fdc4db4d75cf64b8679a57e1135b1e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 22264198a64ade6409ba95217f514a2a, type: 2}
+    - {fileID: 11400000, guid: 37e7d8b8e30231a40aac92da021ee8ab, type: 2}

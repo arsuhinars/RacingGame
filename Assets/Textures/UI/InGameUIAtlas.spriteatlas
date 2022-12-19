@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: InGameUIAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9942d35885ec59647bfeac436a49b328, type: 3}
+    - {fileID: 2800000, guid: 292ff197b346c284c96338ee9c9fd9ed, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4c4413b04d9058c4c85e24a7cd6cdd1d, type: 3}
+  - {fileID: 21300000, guid: 7f9234e0ddd9cbf4bb52b15e9059d7c0, type: 3}
+  - {fileID: 21300000, guid: 0a089dd28045c9449ae7d868532f0677, type: 3}
+  - {fileID: 21300000, guid: c82ec8d419fac0f41985ef1cfa793f69, type: 3}
+  - {fileID: 21300000, guid: f07a4c266451269459f316b29fa3305e, type: 3}
+  - {fileID: 21300000, guid: 56392f66a1f08f1469b5aaca10847feb, type: 3}
+  - {fileID: 21300000, guid: 292ff197b346c284c96338ee9c9fd9ed, type: 3}
+  - {fileID: 21300000, guid: 3d0aa78de0e74ea48a66de9d0248acc4, type: 3}
+  - {fileID: 21300000, guid: 4523c85e722f55f489fcbbf6a76ec9c5, type: 3}
+  - {fileID: 21300000, guid: c1f868bea333a8246b3a428ecfd87dc0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - TurnRight
+  - TurnLeft
+  - TimerStrip
+  - Pause
+  - Break
+  - CarIcon
+  - Cross
+  - DragRaceHUDStrip
+  - FlashingLight
+  - Gas
+  m_RenderDataMap: {}
+  m_Tag: InGameUIAtlas
+  m_IsVariant: 0

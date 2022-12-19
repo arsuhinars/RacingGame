@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e5f9fb4ce1d464e81c11a1a0339f8f, type: 3}
+  m_Name: TimeTrial
+  m_EditorClassIdentifier: 
+  mapName: Forest
+  gameModeName: TimeTrial
+  gameModeParameters:
+    m_keys:
+    - time
+    m_values:
+    - 60.5
+  trafficDensity: 0.264
+  trafficSpeed: 0.259
+  startSeason:
+    _chanceValuePairs:
+    - chance: 1
+      value: 0
+  startWeather:
+    _chanceValuePairs:
+    - chance: 1
+      value: 0
+  seasonChangePeriod: -1
+  seasonChangePeriodRandomFactor: 0
+  weatherChangePeriod: -1
+  weatherChangePeriodRandomFactor: 0
+  showTaskHintOnStart: 1
+  playerCar:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
+  playerCarColor: {r: 1, g: 1, b: 1, a: 1}
+  moneyRewardFactor: 0
+  reputationRewardFactor: 0
+  sparesRewardFactor: 0
+  rewardCounterName: 
+  tasks:
+  - taskText:
+      m_TableReference:
+        m_TableCollectionName: GUID:72a6fd29dd3a7664b9613ded23111c25
+      m_TableEntryReference:
+        m_KeyId: 43126923624755200
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    counterName: playTime
+    targetValue: 60
+    compareMethod: 0
+    moneyReward: 100
+    reputationReward: 0
+    sparesReward: 0
+  - taskText:
+      m_TableReference:
+        m_TableCollectionName: GUID:72a6fd29dd3a7664b9613ded23111c25
+      m_TableEntryReference:
+        m_KeyId: 42146527927906304
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    counterName: score
+    targetValue: 600
+    compareMethod: 0
+    moneyReward: 200
+    reputationReward: 10
+    sparesReward: 0
+  - taskText:
+      m_TableReference:
+        m_TableCollectionName: GUID:72a6fd29dd3a7664b9613ded23111c25
+      m_TableEntryReference:
+        m_KeyId: 42146527927906304
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    counterName: score
+    targetValue: 1000
+    compareMethod: 0
+    moneyReward: 300
+    reputationReward: 20
+    sparesReward: 10
+  references:
+    version: 2
+    RefIds: []

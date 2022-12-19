@@ -1,0 +1,408 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Main_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 72a6fd29dd3a7664b9613ded23111c25, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 4948120775397998593
+  m_TableData:
+  - m_Id: 14151944715677696
+    m_Localized: "{value:notNaN:{value:time(%m)}:{value:time(ss)}:{value:time(ff)}|\u2014}"
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 14502311815065600
+    m_Localized: Score
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 15594019587928064
+    m_Localized: score
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15594112718254080
+    m_Localized: Driving in the opposite lane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15594316041334784
+    m_Localized: Dangerous overtaking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17415266701455360
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17416480654667776
+    m_Localized: Free ride
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17416444462018560
+    m_Localized: Suburb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20360066891296768
+    m_Localized: '{global.countdownTime:cond:>0?{:f0}| }'
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 20780485700005888
+    m_Localized: Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20781030493958144
+    m_Localized: Distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20780863325777920
+    m_Localized: "{value:notNaN:{value:f0} m.|\u2014}"
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 20781549719433216
+    m_Localized: "{value:notNaN:{value:f0}|\u2014}"
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 21768800267972608
+    m_Localized: Time bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21768876944044032
+    m_Localized: Speed bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488392099475456
+    m_Localized: Exit in menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22488661004693504
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22489114589310976
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27566593721020416
+    m_Localized: Try again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27569612382580736
+    m_Localized: Crash!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27571787783516160
+    m_Localized: Time is over!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27571832301858816
+    m_Localized: Race ended!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27571909644824576
+    m_Localized: Challenge completed!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27572106949079040
+    m_Localized: '{global.endGameReason}'
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 38763836092231680
+    m_Localized: Time left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38765873441845248
+    m_Localized: Time trial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40253346831446016
+    m_Localized: Record
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42138765030371328
+    m_Localized: Remained time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42146527927906304
+    m_Localized: Get <nobr>{value} points</nobr>
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 42806123554189312
+    m_Localized: '{moneyReward:cond:>0?<color=#56CF29>+{}<sprite=0><space=0.8em>|}{reputationReward:cond:>0?<color=#9B3CFF>+{}<sprite=1><space=0.8em>|}{sparesReward:cond:>0?<color=#ACADAD>+{}<sprite=2>|
+      }'
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 43126923624755200
+    m_Localized: Hold on <nobr>{value:f0} seconds</nobr>
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 43150764887552000
+    m_Localized: "{value:notNaN:{value:time(%m)}:{value:time(ss)}|\u2014}"
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 44558564754763776
+    m_Localized: <color=#56CF29>+{global.moneyReward}<sprite=0>
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 44558926660284416
+    m_Localized: <color=#9B3CFF>+{global.reputationReward}<sprite=1>
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 44559330307518464
+    m_Localized: <color=#ACADAD>+{global.sparesReward}<sprite=2>
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 44564665063747584
+    m_Localized: Gotten reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44586508097204224
+    m_Localized: Drag race
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44663679289438208
+    m_Localized: m.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44664938520162304
+    m_Localized: Remained distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45939566009954304
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45939658158813184
+    m_Localized: More
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45953109421764608
+    m_Localized: Drive <nobr>{value} m.</nobr>
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 46417552135991296
+    m_Localized: Drive in <nobr>{value:f0} s.</nobr>
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 46485212051845120
+    m_Localized: Tasks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47479392930676736
+    m_Localized: '{global.money}<sprite=0>'
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 47479687777665024
+    m_Localized: '{global.reputationLevel} lv.<sprite=1>'
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 47479928572657664
+    m_Localized: '{global.spares}<sprite=2>'
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 47832610181267456
+    m_Localized: Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47832721401626624
+    m_Localized: Traffic density
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47832814645198848
+    m_Localized: Traffic speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47833052885860352
+    m_Localized: '{value:cond:>66?High|>33?Medium|Low}'
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 47833365680275456
+    m_Localized: '{value:cond:>66?High|>33?Medium|Low}'
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 55842032425943040
+    m_Localized: Class A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55843534351679488
+    m_Localized: Class C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55843636545896448
+    m_Localized: Class B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55843959209508864
+    m_Localized: Class S
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55939420633219072
+    m_Localized: Focus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55939512530419712
+    m_Localized: InitialD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55939578066419712
+    m_Localized: Fustang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55939682018050048
+    m_Localized: Pickup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55939731770884096
+    m_Localized: Polo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55939785902571520
+    m_Localized: Sedan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58041446930366464
+    m_Localized: <sprite=3> Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58682681592430592
+    m_Localized: High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58682947435806720
+    m_Localized: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58683067409678336
+    m_Localized: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58683723126194176
+    m_Localized: Sounds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58683796878835712
+    m_Localized: Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58683878185418752
+    m_Localized: Vibration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58685752741511168
+    m_Localized: Render quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58688348785000448
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59791371254939648
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59915078849839104
+    m_Localized: Language will be changed after reloading the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60574489561841664
+    m_Localized: About author
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60574565059313664
+    m_Localized: 'Hello! Thank you for downloading my game! If you have any questions
+      or offers you can find my contacts below. I would be glad if you rate my game
+      in store.
+
+
+      <line-height=120%><margin=1em>E-Mail: arsuhinars@gmail.com
+
+      Discord:
+      arsuhinars#8278'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60576267342757888
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70615464057290752
+    m_Localized: Van
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72907146698211328
+    m_Localized: Police car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93457039393079296
+    m_Localized: Max framerate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93457532643229696
+    m_Localized: '{value} FPS'
+    m_Metadata:
+      m_Items:
+      - rid: 4948120775397998593
+  - m_Id: 93468076129435648
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93468446444535808
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93468491822710784
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93468544033406976
+    m_Localized: <align=center>Are you sure that you want to exit to main menu? All
+      your progress will be lost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93470374712885248
+    m_Localized: Restart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93470437023465472
+    m_Localized: <align=center>Are you sure that you want to restart the game? All
+      your progress will be lost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93470672483303424
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 4948120775397998593
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00b0a8651e47320000b02898c685330000b028285d9b330000b0684c33df3d0000b0a87a5f55480000b0a8c815d4490000b0e898b5d4490000b06868aff4610000b0682f44028f0000b0e8e262028f0000b0a8390bbc950000b0a84cf113980000b0e862b537990000b0e85c644d990000b0e84fc74d9e0000b028931b4e9e0000b0688e794e9e0000b0680b1c42a30000b0688a84e8a40000c0c89d41aea80000c0084486aea80000c08854beaea80000c0c87de8efa90000c0c85131f0a90000c0c87a21074c01

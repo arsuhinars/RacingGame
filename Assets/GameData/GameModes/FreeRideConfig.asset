@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26de8fa49dde037458fe2d5a451bd6ab, type: 3}
+  m_Name: FreeRideConfig
+  m_EditorClassIdentifier: 
+  gameModeName: freeRide
+  gameModeIcon: {fileID: 21300000, guid: 2bebd5a1944fb1d45935a9fa38fdd15b, type: 3}
+  gameModeManager: {fileID: 0}
+  gameModeHUD: {fileID: 0}
+  gameCounters:
+  - name: playTime
+    valueText:
+      m_TableReference:
+        m_TableCollectionName: GUID:72a6fd29dd3a7664b9613ded23111c25
+      m_TableEntryReference:
+        m_KeyId: 14151944715677696
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables:
+      - name: value
+        variable:
+          rid: 1483904742890406042
+    isHiddenInUI: 0
+    isHiddenInPause: 0
+  - name: coveredDistance
+    valueText:
+      m_TableReference:
+        m_TableCollectionName: GUID:72a6fd29dd3a7664b9613ded23111c25
+      m_TableEntryReference:
+        m_KeyId: 20780863325777920
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables:
+      - name: value
+        variable:
+          rid: 1483904742890406043
+    isHiddenInUI: 0
+    isHiddenInPause: 0
+  - name: score
+    valueText:
+      m_TableReference:
+        m_TableCollectionName: GUID:72a6fd29dd3a7664b9613ded23111c25
+      m_TableEntryReference:
+        m_KeyId: 20781549719433216
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables:
+      - name: value
+        variable:
+          rid: 1483904906069540864
+    isHiddenInUI: 0
+    isHiddenInPause: 0
+  recordCounterName: score
+  recordType: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 1483904742890406042
+      type: {class: FloatVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 10.222111
+    - rid: 1483904742890406043
+      type: {class: FloatVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 1107.713
+    - rid: 1483904906069540864
+      type: {class: FloatVariable, ns: UnityEngine.Localization.SmartFormat.PersistentVariables, asm: Unity.Localization}
+      data:
+        m_Value: 0

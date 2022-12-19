@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainMenuAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: a6012bcbbe03ef34ea131c190f38a35f, type: 3}
+    - {fileID: 2800000, guid: cb2384adeff8a0949b319e4344c4f813, type: 3}
+    - {fileID: 2800000, guid: de3143cb458cd7c488048802c8238597, type: 3}
+    - {fileID: 2800000, guid: 8dac4b0367a220344958c26ce6d6cd94, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 2bebd5a1944fb1d45935a9fa38fdd15b, type: 3}
+  - {fileID: 21300000, guid: 8dac4b0367a220344958c26ce6d6cd94, type: 3}
+  - {fileID: 21300000, guid: 1828abd4060f36c458a588a134fa7e5c, type: 3}
+  - {fileID: 21300000, guid: de0be7c6ad8ded64aa9191b5f9febe6c, type: 3}
+  - {fileID: 21300000, guid: 292ff197b346c284c96338ee9c9fd9ed, type: 3}
+  - {fileID: 21300000, guid: 28f77548ee6f74c428fc6cc3dd3f93d6, type: 3}
+  - {fileID: 21300000, guid: 0ed62f9bc020269418845789b66c7e42, type: 3}
+  - {fileID: 21300000, guid: e38ee4abab3754844b29b8f5ef0339c3, type: 3}
+  - {fileID: 21300000, guid: de3143cb458cd7c488048802c8238597, type: 3}
+  - {fileID: 21300000, guid: 83478ecbc0c93f74ebcea46bd7f31482, type: 3}
+  - {fileID: 21300000, guid: 7c92b16ca9dd5d44f9c28f8e6634f7f4, type: 3}
+  - {fileID: 21300000, guid: 957078bcaa153a4409228e71e41adee7, type: 3}
+  - {fileID: 21300000, guid: 343c92dc21c414945aecf2ca174346f4, type: 3}
+  - {fileID: 21300000, guid: 1a102f8d290c74a40ac473d57226ffa2, type: 3}
+  - {fileID: 21300000, guid: cb2384adeff8a0949b319e4344c4f813, type: 3}
+  - {fileID: 21300000, guid: 96b3a02fc81871847abc7c772d696635, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FreeRide
+  - HorizontalGradient
+  - Garage
+  - Play
+  - Cross
+  - CheckMark
+  - DragRace
+  - TimeTrial
+  - MenuGradient_2
+  - Settings
+  - Back
+  - Dollar
+  - Forward
+  - Tools
+  - MenuGradient_1
+  - Star
+  m_RenderDataMap: {}
+  m_Tag: MainMenuAtlas
+  m_IsVariant: 0

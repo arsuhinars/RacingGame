@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd600834d20c07d449d01c953ee0d4a8, type: 3}
+  m_Name: CarsDataList
+  m_EditorClassIdentifier: 
+  list:
+  - carConfigReference:
+      m_AssetGUID: c99bd95ad4840de499a4bab9fa8929e4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    price: 0
+  - carConfigReference:
+      m_AssetGUID: 961ea5c1f5406a44a8bd88b093977a9a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    price: 0
+  - carConfigReference:
+      m_AssetGUID: 2aba020be2476e64da4ffa4c3f3a30fe
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    price: 0
+  - carConfigReference:
+      m_AssetGUID: 0676eef2d99f4024a88df9d021dc89dc
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    price: 0
+  - carConfigReference:
+      m_AssetGUID: f6d573f9336c52846b13f2f3adcd4f33
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    price: 0
+  - carConfigReference:
+      m_AssetGUID: 61d6943c8f9330b4783877fcf38d205d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    price: 0

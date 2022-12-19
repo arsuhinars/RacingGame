@@ -1,0 +1,601 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6849687327224395339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6849687327224395338}
+  - component: {fileID: 4226125929176233275}
+  m_Layer: 0
+  m_Name: Tree 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6849687327224395338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849687327224395339}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.16, y: 0, z: 2.65}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6849687327257998039}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4226125929176233275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849687327224395339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c7c1bd4c035978489e09d21a232c5b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  props:
+    _chanceValuePairs:
+    - chance: 1
+      value:
+        poolName: Tree_1
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Tree_2
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Birch_0
+        rotateType: 0
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Bush_1
+        rotateType: 2
+        maxYOffset: 0
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Bush_1
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+--- !u!1 &6849687327257998032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6849687327257998039}
+  - component: {fileID: -4097734343812384068}
+  m_Layer: 0
+  m_Name: House_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6849687327257998039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849687327257998032}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6378296813081538190}
+  - {fileID: 6849687327224395338}
+  - {fileID: 6849687327322570572}
+  - {fileID: 6849687327384316453}
+  - {fileID: 6849687327646041982}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4097734343812384068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849687327257998032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff76dae951c33e428f3f8a5a825992f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isActiveInPool: 0
+  _onSpawn:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4226125929176233275}
+        m_TargetAssemblyTypeName: PropSpawner, Assembly-CSharp
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1270938764254720964}
+        m_TargetAssemblyTypeName: PropSpawner, Assembly-CSharp
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1151917398967884463}
+        m_TargetAssemblyTypeName: PropSpawner, Assembly-CSharp
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3644424175249529571}
+        m_TargetAssemblyTypeName: PropSpawner, Assembly-CSharp
+        m_MethodName: Spawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _onRelease:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4226125929176233275}
+        m_TargetAssemblyTypeName: PropSpawner, Assembly-CSharp
+        m_MethodName: Despawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1270938764254720964}
+        m_TargetAssemblyTypeName: PropSpawner, Assembly-CSharp
+        m_MethodName: Despawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1151917398967884463}
+        m_TargetAssemblyTypeName: PropSpawner, Assembly-CSharp
+        m_MethodName: Despawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3644424175249529571}
+        m_TargetAssemblyTypeName: PropSpawner, Assembly-CSharp
+        m_MethodName: Despawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  releaseWhenDisabled: 0
+--- !u!1 &6849687327322570573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6849687327322570572}
+  - component: {fileID: 1270938764254720964}
+  m_Layer: 0
+  m_Name: Tree 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6849687327322570572
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849687327322570573}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.59, y: 0, z: -0.69}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6849687327257998039}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1270938764254720964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849687327322570573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c7c1bd4c035978489e09d21a232c5b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  props:
+    _chanceValuePairs:
+    - chance: 1
+      value:
+        poolName: Tree_1
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Tree_2
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Birch_0
+        rotateType: 0
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Bush_1
+        rotateType: 2
+        maxYOffset: 0
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Bush_1
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+--- !u!1 &6849687327384316454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6849687327384316453}
+  - component: {fileID: 1151917398967884463}
+  m_Layer: 0
+  m_Name: Tree 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6849687327384316453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849687327384316454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.59, y: 0, z: -0.69}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6849687327257998039}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1151917398967884463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849687327384316454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c7c1bd4c035978489e09d21a232c5b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  props:
+    _chanceValuePairs:
+    - chance: 1
+      value:
+        poolName: Tree_1
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Tree_2
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Birch_0
+        rotateType: 0
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Bush_1
+        rotateType: 2
+        maxYOffset: 0
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Bush_1
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+--- !u!1 &6849687327646041983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6849687327646041982}
+  - component: {fileID: 3644424175249529571}
+  m_Layer: 0
+  m_Name: Tree 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6849687327646041982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849687327646041983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.16, y: 0, z: -4.26}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6849687327257998039}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3644424175249529571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6849687327646041983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c7c1bd4c035978489e09d21a232c5b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  props:
+    _chanceValuePairs:
+    - chance: 1
+      value:
+        poolName: Tree_1
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Tree_2
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Birch_0
+        rotateType: 0
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Bush_1
+        rotateType: 2
+        maxYOffset: 0
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+    - chance: 1
+      value:
+        poolName: Bush_1
+        rotateType: 2
+        maxYOffset: 1
+        minScale: 0.8
+        maxScale: 1.2
+        materials:
+          _chanceValuePairs: []
+        materialIndex: 0
+--- !u!1001 &6849687326676109669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6849687327257998039}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+      propertyPath: m_Name
+      value: House_1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+--- !u!4 &6378296813081538190 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4125c249db88a7740a7f7c8ed440dcdc, type: 3}
+  m_PrefabInstance: {fileID: 6849687326676109669}
+  m_PrefabAsset: {fileID: 0}
