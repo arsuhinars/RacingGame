@@ -1,12 +1,11 @@
 # Racing Game
-Проект мобильной игры-гонки на движке `Unity`. В этой игре необходимо, управляя
-автомобилем на прямой трассе, набирать наибольшее количество очков, улучшать 
-свое авто и покупать новые.
+Project of mobile race game on Unity. In this game you are able to control a car on
+straigh road, get greatest score, upgrade your car and buy new ones.
 
-# Игровые режимы
-- Свободная езда
-- Драг-гонка - заезд на дистанцию
-- Гонка на время
+# Game modes
+- Free race
+- Drag race - race for a distance
+- Race against time
 
-# Скриншоты
+# Screenshots
 <img src="https://i.imgur.com/edE93X5.png" width="500"> <img src="https://i.imgur.com/U9bfead.png" width="500"> <img src="https://i.imgur.com/EaBjs19.png" width="500"> <img src="https://i.imgur.com/qWjjAeV.png" width="500"> <img src="https://i.imgur.com/ovTPryv.png" width="500">
