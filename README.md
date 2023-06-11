@@ -1,6 +1,6 @@
 # Racing Game
-Project of mobile race game on Unity. In this game you are able to control a car on
-straigh road, get greatest score, upgrade your car and buy new ones.
+Project of mobile race game on Unity. In this game you have to control a car on
+straigh road, get the greatest score, upgrade your car and buy new ones.
 
 # Game modes
 - Free race
